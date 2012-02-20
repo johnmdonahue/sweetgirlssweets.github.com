@@ -1,0 +1,151 @@
+/*
+  Sticky footer
+*/
+html, body {
+  height: 100%;
+}
+#main {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -90px;
+}
+#footer {
+  height: 90px;
+  margin-top: -90px;
+}
+#push {
+  height: 90px;
+}
+
+/*
+  Main padding
+*/
+#main > .container {
+  padding-top: 195px;
+  padding-bottom: 60px;
+}
+#footer > .container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid #ddd;
+}
+
+body {
+  background: transparent url(/img/header_stripe.gif) repeat-x;
+}
+#desserts > h3 {
+  padding: 5px 0;
+  margin: 10px 0;
+  border-bottom: 2px dashed #ED1E79;
+}
+#desserts > p {
+  padding: 0 60px 0 30px;
+}
+.thumbnail {
+  border: none;
+  padding: 0px;
+}
+.thumbnail {
+  display: block;
+  margin: 10px 20px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.thumbnail {
+  margin: 0;
+}
+.thumbnail .caption {
+  padding: 0;
+}
+#body {
+  z-index: 1;
+  background-color: #fff;
+}
+#sidebar-content {
+  z-index: 0;
+  background-image: url(/img/thesweetgirls.jpg);
+  width: ;
+  height: 268px;
+  width: 200px;
+}
+/*#sidebar img {
+  position: absolute;
+  margin: 0;
+  float: left;
+}*/
+/*#sidebar-content {
+  margin: 0;
+  width: 170px;
+  padding: 15px;
+  padding-top: 280px;
+}
+#sidebar-content p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}*/
+h1 {
+  font-weight: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #ED1E79;
+  text-transform: uppercase;
+}
+
+.navbar-inner {
+  height: 63px;
+/*  height: 90px;*/
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  background-image: -moz-linear-gradient(top, #efefef, #fff);
+  background-image: -ms-linear-gradient(top, #efefef, #fff);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#efefef), to(#fff));
+  background-image: -webkit-linear-gradient(top, #efefef, #fff);
+  background-image: -o-linear-gradient(top, #efefef, #fff);
+  background-image: linear-gradient(top, #efefef, #fff);
+  background-image: url(/img/header_stripe.gif);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#ffffff', GradientType=0);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar .nav .active > a, .navbar .nav .active > a:hover, .navbar .nav > li > a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #ED1E79;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+.nav {
+  margin: 10px;
+}
+.nav-collapse.in.collapse {
+  background-color: rgba(0, 0, 0, .7);
+  margin: 10px;
+  padding: 5px;
+}
+.navbar .nav > li > a {
+  background-color: white;
+  font-size: 24px;
+  float: none;
+  padding: 5px 10px 5px;
+  margin: 5px 5px;
+  line-height: 36px;
+  color: #333;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
