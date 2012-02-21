@@ -33,6 +33,9 @@ html, body {
 body {
   background: transparent url(/img/header_stripe.gif) repeat-x;
 }
+section {
+  padding-bottom: 30px;
+}
 #desserts > h3 {
   padding: 5px 0;
   margin: 10px 0;
