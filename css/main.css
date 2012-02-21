@@ -22,7 +22,7 @@ html, body {
   Main padding
 */
 #main > .container {
-  padding-top: 165px;
+  padding-top: 30px;
   padding-bottom: 60px;
 }
 #footer > .container {
@@ -30,7 +30,6 @@ html, body {
   padding-bottom: 30px;
   border-top: 1px solid #ddd;
 }
-
 body {
   background: transparent url(/img/header_stripe.gif) repeat-x;
 }
@@ -63,38 +62,14 @@ body {
   z-index: 1;
   background-color: #fff;
 }
-#sidebar-content {
-  z-index: 0;
-  background-image: url(/img/thesweetgirls.jpg);
-  width: ;
-  height: 268px;
-  width: 200px;
-  margin-top: 30px;
-}
-/*#sidebar img {
-  position: absolute;
-  margin: 0;
-  float: left;
-}*/
-/*#sidebar-content {
-  margin: 0;
-  width: 170px;
-  padding: 15px;
-  padding-top: 280px;
-}
-#sidebar-content p {
-  font-family: Georgia, "Times New Roman", Times, serif;
-}*/
 h1 {
   font-weight: normal;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #ED1E79;
   text-transform: uppercase;
 }
-
 .navbar-inner {
-  height: 63px;
-/*  height: 90px;*/
+  height: 120px;
   padding-left: 20px;
   padding-right: 20px;
   background-color: white;
@@ -114,8 +89,6 @@ h1 {
   -moz-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 7px rgba(0, 0, 0, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
-
-
 .navbar .nav .active > a, .navbar .nav .active > a:hover, .navbar .nav > li > a:hover {
   color: white;
   text-decoration: none;
@@ -149,4 +122,3 @@ h1 {
   -moz-border-radius: 2px;
   border-radius: 2px;
 }
-

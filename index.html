@@ -6,10 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
@@ -20,7 +17,7 @@
   </head>
 
   <body>
-    <div class="navbar navbar-fixed-top">
+    <div class="navbar navbar-top">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -28,9 +25,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">
-            <img style="position:absolute;" src="/img/logo.gif">
-          </a>
+          <div style="position:absolute;" class="brand">
+            <img src="/img/logo.gif">
+            <br>
+            <img id="thesweetgirls" style="margin-top:10px;" src="/img/thesweetgirls.jpg">
+          </div>
   
           <div class="nav-collapse">
             <ul class="nav pull-right">
@@ -52,30 +51,8 @@
     <div id="main">
       <div class="container" id="content">
         <div class="row">
-                    
-          <div class="span3" id="sidebar">
-            <!-- <div class="thumbnail"> -->
-              <!-- <img src="/img/thesweetgirls.jpg"> -->
-              <!-- <div class="caption"> -->
-                <div id="sidebar-content">  
-                  <!--<p>
-                    Sweet Girls' Sweets is my home-based business here in Lexington,
-                    KY started after many years of encouragement from family and
-                    friends. All desserts are prepared after the order is placed - not
-                    ahead of time - and most fruits are hand-picked or purchased from
-                    local Kentucky growers. All crusts are made from scratch and
-                    rolled by hand.
-                  </p>
-                  <p>
-                    Freshness is our top priority!
-                  </p>
-                </div>
-              </div> -->
-            </div>
-          </div> 
-          <!--End sidebar content-->
-          
-          <div id="body" class="span9">
+
+          <div id="body" class="span9 offset3">
             <div class="tab-content">
               <div class="tab-pane" id="story">
                 <div class="page-header">
@@ -281,8 +258,8 @@
       </div>
     </footer>
     
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js')></script>
-    <script src='/bootstrap/js/bootstrap.min.js')></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+    <script src='/bootstrap/js/bootstrap.min.js'></script>
     
   </body>
 </html>
