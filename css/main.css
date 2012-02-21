@@ -22,7 +22,7 @@ html, body {
   Main padding
 */
 #main > .container {
-  padding-top: 195px;
+  padding-top: 165px;
   padding-bottom: 60px;
 }
 #footer > .container {
@@ -69,6 +69,7 @@ body {
   width: ;
   height: 268px;
   width: 200px;
+  margin-top: 30px;
 }
 /*#sidebar img {
   position: absolute;
@@ -136,7 +137,7 @@ h1 {
   font-size: 24px;
   float: none;
   padding: 5px 10px 5px;
-  margin: 5px 5px;
+  margin: 8px 5px;
   line-height: 36px;
   color: #333;
   text-decoration: none;
