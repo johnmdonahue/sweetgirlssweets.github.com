@@ -1,0 +1,16 @@
+---
+layout: default
+---
+            <article>
+              <header>
+                <h2>
+                  {{ page.title }} <small>{{ page.date | date_to_string }}</small>
+                </h2>
+              </header>
+              <section>
+                {{ content }}
+              </section>
+              <footer id="share">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-via="johnmdonahue">Tweet</a>
+              </footer>
+            </article>

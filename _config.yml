@@ -1,0 +1,11 @@
+# Jekyll
+pygments: true
+markdown: redcarpet
+paginate: 10
+permalink: /:year/:title/ 
+exclude: ["README.md"]
+auto: true
+pygments: true
+baseurl: /
+url: http://sweetgirlssweets.com
+title: Sweet Girls' Sweets'

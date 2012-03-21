@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sweet Girls' Sweets</title>
+
+  <!-- <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="css/main.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link rel="shortcut icon" href="/favicon.ico">
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <header class="brand pull-left">
+        <h1 class="visuallyhidden"><a href="/">{{ site.title }}</a></h1>
+        <a href="/"><img src="/img/logo.gif"></a>
+        <br>
+        <img id="thesweetgirls" style="margin-top:10px;" src="/img/thesweetgirls.jpg">
+      </header>
+      <ul class="nav pull-right">
+        <li>
+          <a id="story-btn" href="#story" data-toggle="tab">our story</a>
+        </li>
+        <li class="active">
+          <a id="desserts-btn" href="#desserts" data-toggle="tab">desserts</a>
+        </li>
+        <li>
+          <a id="contact-btn" href="#contact" data-toggle="tab">contact</a>
+        </li>
+      </ul>
+    </div>
+    <div id="content">
+      <div class="row">
+        <div id="body" class="span9 offset3">
+          {{ content }}
+          <footer>
+            <p class="pull-right">
+              <small>&copy; Copyright 2008-2012 Sweet Girls' Sweets, LLC. All rights reserved.</small>
+            </p>
+          </footer>
+        </div><!--End body-->
+      </div><!--End row-->
+    </div><!--End content-->  
+  </div><!-- end main -->
+
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
